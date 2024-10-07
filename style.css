@@ -1,0 +1,120 @@
+header{
+  background-color: rgb(255, 196, 0);
+  height: 100px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  font-family: 'Duepuntozero Pro ExtraLight';
+  border-radius: 5px;
+}
+
+footer{
+  text-align: center;
+  display: block;
+  font-family: 'Seravek ExtraLight';
+  background-color: rgb(67, 67, 67);
+  height: 100px;
+  margin-top: auto;
+}
+
+.li1 {
+  background-color: rgb(124, 124, 124);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Seravek ExtraLight';
+}
+
+th{
+  font-family: 'Seravek ExtraLight';
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(165, 165, 165);
+  border-radius: 5px;
+}
+
+td{
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(165, 165, 165);
+  border-radius: 5px;
+}
+
+table{
+  background-color: rgb(209, 209, 209);
+  margin: auto;
+  text-align: center;
+  width: 900px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+@font-face {
+  font-family: 'Duepuntozero Pro ExtraLight';
+  font-family: 'Seravek ExtraLight';
+  font-style: inherit;
+  src: 
+  url('fonts/Seravek.otf') format('.otf')
+  url('fonts/DuepuntozeroProBlack.otf') format('.otf');
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  margin-right: 50px;
+  display: inline;
+}
+
+nav{
+  font-family: 'Seravek ExtraLight';
+  margin-top: 15px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.ssilka{
+  padding: 10px;
+  background-color: rgb(255, 209, 59);
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+}
+
+.knopka{
+  background-color: rgb(253, 204, 106);
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
